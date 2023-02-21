@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Prata&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <title>Goldy Store</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header _container">
+        <div class="header__top top-header">
+          <div class="top-header__column">
+            <div class="top-header__contacts contacts-header">
+              <div class="contacts-header__city header-select">
+                <select class="custom-select__header" name="select" id="select" placeholder="Санкт-Петербург">
+                  <option value="super">Санкт-Петербург</option>
+                  <option value="super">Москва</option>
+                  <option value="good">Нижний Новгород</option>
+                  <option value="middle">Ростов-на-Дону</option>
+                </select>
+              </div>
+              <div class="contacts-header__phone">
+                <a href="tel:+78007852535"><span>8 800 785-25-35</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="top-header__column">
+            <div class="top-header__logo logo-header">
+              <a href="#" class="logo-header__top"><span>Goldy</span> Store</a>
+              <div class="logo-header__bottom">ювелирный магазин</div>
+            </div>
+          </div>
+          <div class="top-header__column">
+            <div class="top__header__info info-header">
+              <div class="info-header__actions">
+                <a href="#" class="info-header__login">Вход</a>
+                <a href="#" class="info-header__reg">Регистрация</a>
+              </div>
+
+              <div class="info-header__social">
+                <a href="" class="info-header__like">
+                  <span>23</span>
+                </a>
+                <a href="" class="info-header__chart"></a>
+                <a href="" class="info-header__bag"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__bottom bottom-header">
+          <div class="bottom-header__menu menu">
+            <!-- burger -->
+            <div class="menu__icon icon-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <!--// burger -->
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item active">
+                  <a href="" class="menu__link">Каталог</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Акции</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Бренды</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Магазины</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">О нас</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Доставка и оплата</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Статьи</a>
+                </li>
+                <!-- select for mobile -->
+                <div class="contacts-header__city__mobile header-select">
+                  <select class="custom-select" name="select" id="select" placeholder="Санкт-Петербург">
+                    <option value="super">Санкт-Петербург</option>
+                    <option value="super">Москва</option>
+                    <option value="good">Нижний Новгород</option>
+                    <option value="middle">Ростов-на-Дону</option>
+                  </select>
+                </div>
+                <!-- phone number for mobile -->
+                <div class="contacts-header__phone__mobile">
+                  <a href="tel:+78007852535"><span>8 800 785-25-35</span></a>
+                </div>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- logo for mobile -->
+          <div class="top-header__logo logo-header__mobile">
+            <a href="#" class="logo-header__top"><span>Goldy</span> Store</a>
+            <div class="logo-header__bottom">ювелирный магазин</div>
+          </div>
+          <!-- actions for mobile -->
+          <div class="info-header__actions__mobile">
+            <a href="#" class="info-header__login">Вход</a>
+            <a href="#" class="info-header__reg">Регистрация</a>
+          </div>
+          <div class="bottom-header__search">
+            <form action="%" class="search-header">
+              <button class="search-header__button">
+                <img src="./images/icon-search.svg" alt="" />
+              </button>
+              <input type="text" class="search-header__input" placeholder="Поиск по сайту" />
+            </form>
+          </div>
+        </div>
+      </header>
+      <main class="page _container">
+        <!-- Page-slider -->
+        <div class="page__slider slider swiper">
+          <div class="slider__wrapper swiper-wrapper">
+            <!-- slide1 -->
+            <div class="slider__body swiper-slide">
+              <div class="slider__content">
+                <div class="slider__text">
+                  <div class="slider__title1">Суперскидка до 60%</div>
+                  <div class="slider__title2">НА БРИЛЛИАНТЫ</div>
+                  <div class="slider__btn">Подробнее</div>
+                </div>
+                <div class="slider__images">
+                  <a href=""><img src="./images/slider-image1.png" alt="img" /></a>
+                </div>
+                <div class="slider__decor"><img src="./images/Union.svg" alt="" /></div>
+              </div>
+            </div>
+            <!-- slide2 -->
+            <div class="slider__body swiper-slide">
+              <div class="slider__content">
+                <div class="slider__text">
+                  <div class="slider__title1">Суперскидка до 60%</div>
+                  <div class="slider__title2">НА БРИЛЛИАНТЫ</div>
+                  <div class="slider__btn">Подробнее</div>
+                </div>
+                <div class="slider__images">
+                  <a href=""><img src="./images/slider-image1.png" alt="img" /></a>
+                </div>
+                <div class="slider__decor"><img src="./images/Union.svg" alt="" /></div>
+              </div>
+            </div>
+            <!-- slide3 -->
+            <div class="slider__body swiper-slide">
+              <div class="slider__content">
+                <div class="slider__text">
+                  <div class="slider__title1">Суперскидка до 60%</div>
+                  <div class="slider__title2">НА БРИЛЛИАНТЫ</div>
+                  <div class="slider__btn">Подробнее</div>
+                </div>
+                <div class="slider__images">
+                  <a href=""><img src="./images/slider-image1.png" alt="img" /></a>
+                </div>
+                <div class="slider__decor"><img src="./images/Union.svg" alt="" /></div>
+              </div>
+            </div>
+            <!-- Arrows -->
+          </div>
+          <div class="slider__image-next">
+            <img src="./images/Arrow-right.svg" alt="arrow" />
+          </div>
+          <div class="slider__image-prev">
+            <img src="./images/Arrow-left.svg" alt="arrow" />
+          </div>
+          <!-- pagination -->
+          <div class="slider__pagination"></div>
+        </div>
+
+        <!-- Page__popularCategory -->
+        <div class="page__popularCategory popularCategory">
+          <div class="popularCategory__title">Популярные категории</div>
+          <div class="popularCategory__items">
+            <div class="popularCategory__column">
+              <div class="popularCategory__card card-popularCategory">
+                <div class="card-popularCategory__img">
+                  <img src="./images/img-card1.png" alt="img" />
+                </div>
+                <div class="card-popularCategory__text">Кольца</div>
+              </div>
+            </div>
+            <div class="popularCategory__column">
+              <div class="popularCategory__card card-popularCategory">
+                <div class="card-popularCategory__img">
+                  <img src="./images/img-card2.png" alt="img" />
+                </div>
+                <div class="card-popularCategory__text">Серьги</div>
+              </div>
+            </div>
+            <div class="popularCategory__column">
+              <div class="popularCategory__card card-popularCategory">
+                <div class="card-popularCategory__img">
+                  <img src="./images/img-card3.png" alt="img" />
+                </div>
+                <div class="card-popularCategory__text">Помолвочные кольца</div>
+              </div>
+            </div>
+            <div class="popularCategory__column">
+              <div class="popularCategory__card card-popularCategory">
+                <div class="card-popularCategory__img">
+                  <img src="./images/img-card4.png" alt="img" />
+                </div>
+                <div class="card-popularCategory__text">Браслеты</div>
+              </div>
+            </div>
+            <div class="popularCategory__column">
+              <div class="popularCategory__card card-popularCategory">
+                <div class="card-popularCategory__img">
+                  <img src="./images/img-card5.png" alt="img" />
+                </div>
+                <div class="card-popularCategory__text">Колье и подвески</div>
+              </div>
+            </div>
+            <div class="popularCategory__column">
+              <div class="popularCategory__card card-popularCategory">
+                <div class="card-popularCategory__img">
+                  <img src="./images/img-card6.png" alt="img" />
+                </div>
+                <div class="card-popularCategory__text">Часы</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page__sale -->
+        <div class="page__sale sale">
+          <div class="sale__heading">
+            <h2 class="sale__title">Распродажа</h2>
+            <div class="sale__arrow">
+              <div class="sale__btn__prev">
+                <img src="./images/Arrow-left.svg" alt="arrow" />
+              </div>
+              <div class="sale__btn__next">
+                <img src="./images/Arrow-right.svg" alt="arrow" />
+              </div>
+            </div>
+          </div>
+
+          <div class="sale__top top-sale">
+            <!-- tabs- sale-->
+            <div class="top-sale__tabs tabs">
+              <nav class="top-sale__nav">
+                <a href="#content-tab1" class="tabs__item _active">Кольца</a>
+                <a href="#content-tab2" class="tabs__item">Серьги</a>
+                <a href="#content-tab3" class="tabs__item">Браслеты</a>
+                <a href="#content-tab4" class="tabs__item">Часы</a>
+              </nav>
+              <!-- SLIDERS top-sale__body -->
+              <div class="top-sale__body body-top-sale">
+                <!-- slider tabs1 -->
+                <div id="content-tab1" class="body-top-sale__slider mainSlider swiper _active">
+                  <div class="swiper-wrapper">
+                    <!-- Main-slide1 -->
+
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/кольцо1-slider.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/кольцо2-slider.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/кольцо3-slider.png" alt="photo" />
+                          </a>
+                          ...
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Стильное кольцо из белого золота c бриллиантами</a>
+                      <!-- Select card -->
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                    <!-- Main-slide2 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/кольцо1-slider.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/кольцо2-slider.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/кольцо3-slider.png" alt="photo" />
+                          </a>
+                          ...
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Стильное кольцо из белого золота c бриллиантами</a>
+                      <!-- Select card -->
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                    <!-- Main-slide3 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/кольцо3-slider.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/кольцо1-slider.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/кольцо2-slider.png" alt="photo" />
+                          </a>
+                          ...
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">37 500 ₽</span>
+                      </div>
+                      <a href="#" class="item__title">Стильное кольцо из белого золота c бриллиантами</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                    <!-- Main-slide4 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/кольцо4-slider.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/кольцо2-slider.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/кольцо3-slider.png" alt="photo" />
+                          </a>
+                          ...
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">39 200 ₽</span>
+                      </div>
+                      <a href="#" class="item__title">Стильное кольцо из белого золота c бриллиантами</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- If we need navigation buttons -->
+                </div>
+
+                <!-- slider tabs2 -->
+                <div id="content-tab2" class="body-top-sale__slider mainSlider swiper">
+                  <div class="swiper-wrapper">
+                    <!-- Main-slide1 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card2.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card2.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card2.png" alt="photo" />
+                          </a>
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Cерьги</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                    <!-- Main-slide2 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card2.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card2.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card2.png" alt="photo" />
+                          </a>
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Cерьги</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                    <!-- Main-slide3 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card2.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card2.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card2.png" alt="photo" />
+                          </a>
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Cерьги</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                    <!-- Main-slide4 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card2.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card2.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card2.png" alt="photo" />
+                          </a>
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Cерьги</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- If we need navigation buttons -->
+                </div>
+
+                <!-- slider tabs3 -->
+                <div id="content-tab3" class="body-top-sale__slider mainSlider swiper">
+                  <div class="swiper-wrapper">
+                    <!-- Main-slide1 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card4.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card4.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card4.png" alt="photo" />
+                          </a>
+                          ...
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Браслеты</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                    <!-- Main-slide2 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card4.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card4.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card4.png" alt="photo" />
+                          </a>
+                          ...
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Браслеты</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                    <!-- Main-slide3 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card4.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card4.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card4.png" alt="photo" />
+                          </a>
+                          ...
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Браслеты</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                    <!-- Main-slide4 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card4.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card4.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card4.png" alt="photo" />
+                          </a>
+                          ...
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Браслеты</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- slider tabs4 -->
+                <div id="content-tab4" class="body-top-sale__slider mainSlider swiper">
+                  <div class="swiper-wrapper">
+                    <!-- Main-slide1 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card6.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card6.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card6.png" alt="photo" />
+                          </a>
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Часы</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                    <!-- Main-slide2 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card6.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card6.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card6.png" alt="photo" />
+                          </a>
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Часы</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                    <!-- Main-slide3 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card6.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card6.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card6.png" alt="photo" />
+                          </a>
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Часы</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                    <!-- Main-slide4 -->
+                    <div class="swiper-slide mainSlider__item item tabs__block">
+                      <div class="swiper slider-photo">
+                        <div class="swiper-wrapper">
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card6.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card6.png" alt="photo" />
+                          </a>
+                          <a href="#" class="swiper-slide slider-photo__img">
+                            <img src="./images/img-card6.png" alt="photo" />
+                          </a>
+                        </div>
+                        <div class="swiper-pagination slider-photo-pagination">
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                          <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        </div>
+                      </div>
+                      <div class="item__price">
+                        <span class="item__actual-price">41 000 ₽</span>
+                        <span class="item__old-price">65 000 ₽</span>
+                        <span class="item__sale">-45%</span>
+                      </div>
+                      <a href="#" class="item__title">Часы</a>
+                      <div class="item__select-wrapper">
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Белое золото">
+                            <option value="super">Белое золото</option>
+                            <option value="super">Желтое золото</option>
+                            <option value="super">Серебро</option>
+                          </select>
+                        </div>
+                        <div class="item__select">
+                          <select class="custom-select__item" name="select" id="select" placeholder="Размер 16">
+                            <option value="super">Размер 16</option>
+                            <option value="super">Размер 17</option>
+                            <option value="super">Размер 18</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="item__sale-active">Sale</div>
+                      <div class="item__action">
+                        <div class="item__like"><img src="./images/like-gray-icon.svg" alt="icon-like" /></div>
+                        <div class="item__eyes"><img src="./images/eyes-icon.svg" alt="icon-eyes" /></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sale__bottom bottom-sale">
+            <div class="bottom-sale__items">
+              <div class="bottom-sale__column">
+                <div class="bottom-sale__card card-bottom-sale">
+                  <div class="card-bottom-sale__text">
+                    <div class="card-bottom-sale__text__1">Скидки<br />на все украшения <br />с бриллиантами</div>
+                    <div class="card-bottom-sale__text__2 green">До <span>-50%</span></div>
+                  </div>
+                  <div class="card-bottom-sale__img__1"><img src="./images/card-sale-bottom2.png" alt="img" /></div>
+                </div>
+              </div>
+              <div class="bottom-sale__column">
+                <div class="bottom-sale__card card-bottom-sale">
+                  <div class="card-bottom-sale__text">
+                    <div class="card-bottom-sale__text__1">Скидки <br />на кольца<br />и браслеты</div>
+                    <div class="card-bottom-sale__text__2 red">До<span>-40%</span></div>
+                  </div>
+                  <div class="card-bottom-sale__img__2"><img src="./images/card-sale-bottom1.png" alt="img" /></div>
+                </div>
+              </div>
+              <div class="bottom-sale__column">
+                <div class="bottom-sale__card card-bottom-sale">
+                  <div class="card-bottom-sale__text">
+                    <div class="card-bottom-sale__text__1">
+                      снижение цен<br />
+                      на обручальные<br />
+                      кольца
+                    </div>
+                    <div class="card-bottom-sale__text__2 yellow">До <span>-60%</span></div>
+                  </div>
+                  <div class="card-bottom-sale__img__3"><img src="./images/card-sale-bottom3.png" alt="img" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page__goods -->
+        <div class="page__goods goods">
+          <div class="goods__heading">
+            <h2 class="goods__title">Товар дня</h2>
+            <div class="goods__arrow">
+              <div class="goods__btn__prev">
+                <img src="./images/Arrow-left.svg" alt="arrow" />
+              </div>
+              <div class="goods__btn__next">
+                <img src="./images/Arrow-right.svg" alt="arrow" />
+              </div>
+            </div>
+            <!-- Arrows -->
+          </div>
+
+          <div class="goods__content">
+            <!-- mainslider-goods -->
+            <div class="swiper slider-goods">
+              <div class="swiper-wrapper slider-goods__wrapper">
+                <!-- Slide-1 -->
+                <div class="swiper-slide slider-goods__slide">
+                  <!-- slider-goods-photo -->
+                  <div class="swiper slider-goods-photo slider-goods__slide__photo">
+                    <div class="swiper-wrapper slider-goods-photo__wrapper">
+                      <div class="swiper-slide slider-goods-photo__slider">
+                        <div class="slider-goods-photo__img"><img src="./images/photo-goods.png" alt="photo" /></div>
+
+                        <div class="slider-goods-photo__icon-sale">
+                          <span class="slider-goods-photo__new">New</span>
+                          <span class="slider-goods-photo__hit">Хит</span>
+                          <span class="slider-goods-photo__sale">Sale</span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide slider-goods-photo__slider">
+                        <div class="slider-goods-photo__img"><img src="./images/photo-goods.png" alt="photo" /></div>
+                        <div class="slider-goods-photo__icon-sale">
+                          <span class="slider-goods-photo__new">New</span>
+                          <span class="slider-goods-photo__hit">Хит</span>
+                          <span class="slider-goods-photo__sale">Sale</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="slider-goods-photo__prev"><img src="./images/arrow-right-goods.svg" alt="arrow" /></div>
+                    <div class="slider-goods-photo__next"><img src="./images/arrow-right-goods.svg" alt="arrow" /></div>
+                  </div>
+
+                  <div class="slider-goods__slide__content content-goods">
+                    <div class="content-goods__rating rating">
+                      <div class="rating__wrapper">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                      <div class="rating__count">4.2</div>
+                    </div>
+                    <div class="content-goods__title">Кольцо из золота с бриллиантами</div>
+                    <div class="content-goods__code">Артикул: 1012076</div>
+                    <div class="content-goods__info-top info-top">
+                      <div class="info-top__price">22 000 ₽</div>
+                      <div class="info-top__old-price">22 000 ₽</div>
+                      <span class="info-top__sale">-45%</span>
+                      <div class="info-top__time time">
+                        <div class="time__hours">
+                          <span>12</span>
+                          <span>часов</span>
+                        </div>
+                        <span class="time__dott">:</span>
+                        <div class="time__minutes">
+                          <span>46</span>
+                          <span>минут</span>
+                        </div>
+                        <span class="time__dott">:</span>
+                        <div class="time__second">
+                          <span>51</span>
+                          <span>секунд</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content-goods__info-bottom info-bottom">
+                      <div class="info-bottom__color-title">цвет</div>
+                      <div class="info-bottom__color-icon">
+                        <span class="info-bottom__color-icon-circle"></span>
+                        <span class="info-bottom__color-icon-circle"></span>
+                        <span class="info-bottom__color-icon-circle"></span>
+                        <span class="info-bottom__color-icon-circle"></span>
+                      </div>
+                      <div class="info-bottom__size size-info">
+                        <div class="size-info__title">
+                          <div class="size-info__text">размер</div>
+                          <div
+                            data-tooltip="Также как существующая теория напрямую зависит от экономической целесообразности принимаемых решений."
+                            class="size-info__help">
+                            ?
+                          </div>
+                        </div>
+                        <div class="size-info__chooseSize chooseSize">
+                          <span class="checked">16,5</span>
+                          <span>17,5</span>
+                          <span>18,5</span>
+                          <span>19</span>
+                          <span>19,5</span>
+                          <span>19,5</span>
+                          <span>18,5</span>
+                          <span>19</span>
+                          <span>19,5</span>
+                          <span>19,5</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content-goods__action action-goods">
+                      <div class="action-goods__btn">
+                        <button class="action-goods__btn-cart">в корзину</button>
+                        <button class="action-goods__btn-cart-buy">купить в 1 клик</button>
+                      </div>
+                      <div class="action-goods__icons">
+                        <div class="action-goods__like">
+                          <div>Сохранить</div>
+                        </div>
+                        <div class="action-goods__compare">
+                          <div>Сравнить</div>
+                        </div>
+                        <div class="action-goods__share">
+                          <div>Поделиться</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide-2 -->
+                <div class="swiper-slide slider-goods__slide">
+                  <!-- slider-goods-photo -->
+                  <div class="swiper slider-goods-photo slider-goods__slide__photo">
+                    <div class="swiper-wrapper slider-goods-photo__wrapper">
+                      <div class="swiper-slide slider-goods-photo__slider">
+                        <div class="slider-goods-photo__img"><img src="./images/photo-goods.png" alt="photo" /></div>
+
+                        <div class="slider-goods-photo__icon-sale">
+                          <span class="slider-goods-photo__new">New</span>
+                          <span class="slider-goods-photo__hit">Хит</span>
+                          <span class="slider-goods-photo__sale">Sale</span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide slider-goods-photo__slider">
+                        <div class="slider-goods-photo__img"><img src="./images/photo-goods.png" alt="photo" /></div>
+                        <div class="slider-goods-photo__icon-sale">
+                          <span class="slider-goods-photo__new">New</span>
+                          <span class="slider-goods-photo__hit">Хит</span>
+                          <span class="slider-goods-photo__sale">Sale</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="slider-goods-photo__prev"><img src="./images/arrow-right-goods.svg" alt="arrow" /></div>
+                    <div class="slider-goods-photo__next"><img src="./images/arrow-right-goods.svg" alt="arrow" /></div>
+                  </div>
+
+                  <div class="slider-goods__slide__content content-goods">
+                    <div class="content-goods__rating rating">
+                      <div class="rating__wrapper">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                      <div class="rating__count">4.2</div>
+                    </div>
+                    <div class="content-goods__title">Кольцо из золота с бриллиантами</div>
+                    <div class="content-goods__code">Артикул: 1012076</div>
+                    <div class="content-goods__info-top info-top">
+                      <div class="info-top__price">22 000 ₽</div>
+                      <div class="info-top__old-price">22 000 ₽</div>
+                      <span class="info-top__sale">-45%</span>
+                      <div class="info-top__time time">
+                        <div class="time__hours">
+                          <span>12</span>
+                          <span>часов</span>
+                        </div>
+                        <span class="time__dott">:</span>
+                        <div class="time__minutes">
+                          <span>46</span>
+                          <span>минут</span>
+                        </div>
+                        <span class="time__dott">:</span>
+                        <div class="time__second">
+                          <span>51</span>
+                          <span>секунд</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content-goods__info-bottom info-bottom">
+                      <div class="info-bottom__color-title">цвет</div>
+                      <div class="info-bottom__color-icon">
+                        <span class="info-bottom__color-icon-circle"></span>
+                        <span class="info-bottom__color-icon-circle"></span>
+                        <span class="info-bottom__color-icon-circle"></span>
+                        <span class="info-bottom__color-icon-circle"></span>
+                      </div>
+                      <div class="info-bottom__size size-info">
+                        <div class="size-info__title">
+                          <div class="size-info__text">размер</div>
+                          <div
+                            data-tooltip="Также как существующая теория напрямую зависит от экономической целесообразности принимаемых решений."
+                            class="size-info__help">
+                            ?
+                          </div>
+                        </div>
+                        <div class="size-info__chooseSize chooseSize">
+                          <span class="checked">16,5</span>
+                          <span>17,5</span>
+                          <span>18,5</span>
+                          <span>19</span>
+                          <span>19,5</span>
+                          <span>19,5</span>
+                          <span>18,5</span>
+                          <span>19</span>
+                          <span>19,5</span>
+                          <span>19,5</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content-goods__action action-goods">
+                      <div class="action-goods__btn">
+                        <button class="action-goods__btn-cart">в корзину</button>
+                        <button class="action-goods__btn-cart-buy">купить в 1 клик</button>
+                      </div>
+                      <div class="action-goods__icons">
+                        <div class="action-goods__like">
+                          <div>Сохранить</div>
+                        </div>
+                        <div class="action-goods__compare">
+                          <div>Сравнить</div>
+                        </div>
+                        <div class="action-goods__share">
+                          <div>Поделиться</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- page__articles -->
+        <div class="page__articles articles">
+          <div class="articles__top top-articles">
+            <h2 class="top-articles__title">Статьи</h2>
+            <div class="top-articles__read-all">Читать все</div>
+          </div>
+          <div class="articles__bottom bottom-articles">
+            <div class="bottom-articles__items">
+              <div class="bottom-articles__column">
+                <div class="bottom-articles__card card">
+                  <div class="card__img">
+                    <a href="#"><img src="./images/card-articles1.png" alt="img" /></a>
+                  </div>
+                  <div class="card__data">21 сентября 2021</div>
+                  <a href="#" class="card__text">Обручальные кольца: тренды 2021</a>
+                </div>
+              </div>
+              <div class="bottom-articles__column">
+                <div class="bottom-articles__card card">
+                  <div class="card__img">
+                    <a href="#"><img src="./images/card-articles2.png" alt="img" /></a>
+                  </div>
+                  <div class="card__data">25 сентября 2021</div>
+                  <a href="#" class="card__text">Главные 25 сентября 2021 тренды года</a>
+                </div>
+              </div>
+              <div class="bottom-articles__column">
+                <div class="bottom-articles__card card">
+                  <div class="card__img">
+                    <a href="#"><img src="./images/card-articles3.png" alt="img" /></a>
+                  </div>
+                  <div class="card__data">21 сентября 2021</div>
+                  <a href="#" class="card__text">Жемчуг: 7 малоизвестных фактов о культовом украшении</a>
+                </div>
+              </div>
+              <div class="bottom-articles__column">
+                <div class="bottom-articles__card card">
+                  <div class="card__img">
+                    <a href="#"><img src="./images/card-articles4.png" alt="img" /></a>
+                  </div>
+                  <div class="card__data">21 сентября 2021</div>
+                  <a href="#" class="card__text">Как отличить золото от подделки: 10 практических советов</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+      </main>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+  <script src="./js/select-contacts.js"></script>
+  <script src="./js/select-card.js"></script>
+  <script src="./js/burger.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js "></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/tabs.js"></script>
+</html>
