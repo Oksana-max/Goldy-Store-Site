@@ -1,5 +1,4 @@
 /*Обнуление*/
-
 * {
   padding: 0;
   margin: 0;
@@ -13,18 +12,13 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 :focus,
 :active {
   outline: none;
 }
-
 a:focus,
 a:active {
   outline: none;
-}
-a {
-  color: $maincolor;
 }
 
 nav,
@@ -38,13 +32,13 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-size: $fontsize;
+  font-size: 16px;
   line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-
 input,
 button,
 textarea {
@@ -54,29 +48,23 @@ textarea {
 input::-ms-clear {
   display: none;
 }
-
 button {
   cursor: pointer;
 }
-
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
-
 a,
 a:visited {
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 ul li {
   list-style: none;
 }
-
 img {
   vertical-align: top;
 }
@@ -90,3 +78,4 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
+/*--------------------*/
