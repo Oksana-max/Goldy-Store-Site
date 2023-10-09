@@ -664,21 +664,21 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  .slider__images {
+  .slider__images img {
     width: 400px;
     height: 400px;
   }
 }
 
 @media (max-width: 600px) {
-  .slider__images {
+  .slider__images img {
     width: 250px;
     height: 250px;
   }
 }
 
 @media (max-width: 450px) {
-  .slider__images {
+  .slider__images img {
     width: 150px;
     height: 150px;
   }
