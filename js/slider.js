@@ -34,9 +34,12 @@ const swiper2 = new Swiper(".mainSlider", {
   spaceBetween: 20,
   breakpoints: {
     // when window width is >= 320px
-    320: {
+    250: {
       slidesPerView: 1,
-      spaceBetween: 20,
+    },
+    450: {
+      slidesPerView: 2,
+      spaceBetween: 10,
     },
 
     // when window width is >= 640px
@@ -72,17 +75,8 @@ const swiper4 = new Swiper(".slider-goods", {
     nextEl: ".goods__btn__next",
     prevEl: ".goods__btn__prev",
   },
-  // pagination: {
-  //   el: ".slider__pagination",
-  //   type: "bullets",
-  //   clickable: true,
-  // },
+
   loop: true,
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: true,
-  // },
-  // speed: 800,
 });
 
 const swiper5 = new Swiper(".slider-goods-photo", {
